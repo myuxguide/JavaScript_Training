@@ -1,14 +1,29 @@
 {
-  "name": "js-starter-code",
+  "name": "js-loops",
   "version": "1.0.0",
-  "description": "JS Starter Code",
-  "main": "script.js",
+  "description": "Created for JS_Loops",
+  "main": "index.js",
   "scripts": {
-    "start": "lite-server"
+    "test": "JavaScript Loops",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
   },
-  "author": "Pluralsight",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myuxguide/JavaScript_Training.git"
+  },
+  "author": "Jimish Shah",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myuxguide/JavaScript_Training/issues"
+  },
+  "homepage": "https://github.com/myuxguide/JavaScript_Training#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "bootstrap": "^5.0.2",
+    "concurrently": "^6.2.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.3.5"
   }
 }
